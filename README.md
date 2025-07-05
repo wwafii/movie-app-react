@@ -7,8 +7,9 @@ A modern movie application built with **React** and styled with **Tailwind CSS**
 - Browse and search movies using TMDB API
 - View detailed movie information (title, release date, popularity, poster, etc.)
 - Track trending movies based on user search popularity
-- User authentication and backend powered by Appwrite
-- Responsive design with Tailwind CSS
+- Backend powered by Appwrite
+- Responsive design with Tailwind CSS for faster loading and better SEO
+- SEO-friendly architecture including optimized metadata, clean URLs, and fast performance to improve search engine ranking
 
 ## Tech Stack
 
@@ -17,14 +18,41 @@ A modern movie application built with **React** and styled with **Tailwind CSS**
 - TMDB API
 - Appwrite
 
-## Getting Started
+## Cloning the Repository
 
-1. Clone this repository  
 git clone https://github.com/wwafii/movie-app-react.git
+cd movie-app-react
 
-2. Install dependencies  
+text
+
+## Installation
+
+Install the project dependencies using npm:
+
 npm install
 
-3. Configure your TMDB API key and Appwrite settings in the environment variables  
-4. Run the development server  
-npm start
+text
+
+## Set Up Environment Variables
+
+Create a new file named `.env.local` in the root of your project and add the following content:
+
+VITE_TMDB_API_KEY=
+
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_COLLECTION_ID=
+
+text
+
+Replace the placeholder values with your actual TheMovieDatabase API and Appwrite credentials.
+
+## Running the Project
+
+Start the development server:
+
+npm run dev
+
+text
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
