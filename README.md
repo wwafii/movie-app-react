@@ -23,7 +23,7 @@ A modern movie application built with **React** and styled with **Tailwind CSS**
 git clone https://github.com/wwafii/movie-app-react.git
 cd movie-app-react
 
-text
+
 
 ## Installation
 
@@ -31,7 +31,7 @@ Install the project dependencies using npm:
 
 npm install
 
-text
+
 
 ## Set Up Environment Variables
 
@@ -43,7 +43,7 @@ VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_DATABASE_ID=
 VITE_APPWRITE_COLLECTION_ID=
 
-text
+
 
 Replace the placeholder values with your actual TheMovieDatabase API and Appwrite credentials.
 
@@ -53,6 +53,5 @@ Start the development server:
 
 npm run dev
 
-text
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
