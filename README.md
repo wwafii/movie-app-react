@@ -1,4 +1,4 @@
-# movie-app-react
+# Streamy
 
 A modern movie application built with **React** and styled with **Tailwind CSS**, integrating the **TMDB API** for movie data and **Appwrite** for backend services. This app allows users to browse movies, view detailed information, and track trending movies based on the number of user searches, providing real-time popular movie insights.
 
